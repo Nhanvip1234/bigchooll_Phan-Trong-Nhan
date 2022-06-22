@@ -18,7 +18,7 @@ namespace BigSchooll_PhanTrongNhan.Controllers
         }
         // GET: Courses
         [Authorize]
-        [HttpPost]      
+        [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(CourseViewModel viewModel)
         {

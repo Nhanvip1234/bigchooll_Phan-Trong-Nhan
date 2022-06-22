@@ -22,15 +22,20 @@ select,
 textarea {
     max-width: 280px;
 }
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus{
+    background-color:aqua;
+    border-color:chartreuse
+}
 .navbar-inverse {
-    background-color: #00ff90;
-    border-color: #ffffff;
+    background-color:aquamarine;
+    border-color:darkmagenta;
 }
 .navbar-inverse .navbar-nav > li > a {
     color: black;
 }
 .navbar-inverse .navbar-brand {
-    color: black;
+    color: maroon;
 }
 /* course layout*/
 .course {
@@ -42,7 +47,7 @@ textarea {
 }
 .course > li .date {
     text-align: center;
-    background-color: #d41d50;
+    background-color: #ff0000;
     color: white;
     width: 60px;
     border-radius: 8px;
